@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Index.html" />
+    <Content Include="js\drag.js" />
     <Content Include="js\funciones.js" />
     <Content Include="js\usuario.js" />
     <Content Include="packages.config" />

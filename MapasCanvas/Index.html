@@ -8,7 +8,7 @@
             height: 200px;
             border: red double 3px;
         }
-        canvas {
+        #mover {
             width: 300px;
             height: 200px;
             border: red double 3px;
@@ -32,7 +32,10 @@
             <input type="button" id="btnGuardarCoords" value="Guardar" />
 
         </div>
-        <canvas id="disposicion" draggable="true"></canvas>
+        <div id="mover" draggable="true">
+            <canvas id="disposicion"></canvas>
+
+        </div>
         <div id="clase1" class="clase"></div>
         <div id="clase2" class="clase"></div>
         <div id="clase3" class="clase"></div>
@@ -42,5 +45,6 @@
     <script src="Scripts/jquery-2.1.1.min.js"></script>
     <script src="js/usuario.js"></script>
     <script src="js/funciones.js"></script>
+    <script src="js/drag.js"></script>
 </body>
 </html>
