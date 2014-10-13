@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        .clase {
+            width: 300px;
+            height: 200px;
+            border: red double 3px;
+        }
+        canvas {
+            width: 300px;
+            height: 200px;
+            border: red double 3px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="registro">
+        <input type="text" id="txtNombre"/>
+        <input type="button" id="btnGuardarNombre" value="Guardar"/>
+
+    </div>
+    <div id="datos" style="display: none;">
+        <div id="formulario">
+            <input type="text" id="txtX" placeholder="X"/>
+            <input type="text" id="txtY" placeholder="Y" />
+            <input type="text" id="txtW" placeholder="W" />
+            <input type="text" id="txtH" placeholder="H" />
+            <input type="button" id="btnGuardarCoords" value="Guardar" />
+
+        </div>
+        <canvas id="disposicion" draggable="true"></canvas>
+        <div id="clase1" class="clase"></div>
+        <div id="clase2" class="clase"></div>
+        <div id="clase3" class="clase"></div>
+        
+
+    </div>
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="js/usuario.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
